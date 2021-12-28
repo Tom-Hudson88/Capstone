@@ -126,7 +126,7 @@ This leaves access to charging stations.  Human nature will always play a role i
 
 How easily accessible is the nearest charging station?  Will it charge my vehicle? How quick does it charge?  These are common questions that many will have as they contemplate purchasing an EV.
 
-[alternative fuel sites](maps/map_alt_fuel_sites.html)
+[alternative fuel sites](https://tom-hudson88.github.io/maps/)
 
 This folium clustered map shows the locations of these public charging stations.  With the focus on Nashville, it is apparent that the number of locations is low outside of the downtown and mid-town areas.  Of the roughly 187 charging sites, 140 are in downtown and mid-town.  An additional 33 are at the airport.  This speaks a great deal to convenience but is not insurmountable if you can charge your car at home.
 
