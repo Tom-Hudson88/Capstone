@@ -3,6 +3,7 @@
 ## What is the current state of clean energy as it applies to transportation in the United States
 
 This project studies the progress made over the last few decades toward lowering the pollution levels created in generating electricity with the end aim as having 100% clean energy used for transportation in electric vehicles (EV’s).
+
 Why should you care?
 Pollution caused by the burning of fossil fuels has had a great effect on our environment dating back to industrialization in England in the 1800’s.  As early as 1819, a mutation occurred with the peppered moth.  In areas where trees were blackened by the burning of coal, the specked moth adapted to increased predation by animals by mutating to a black color. [Peppered Moths: Natural Selection (asu.edu)](https://askabiologist.asu.edu/peppered-moths-game/natural-selection.html)  While this mutation points to “natural selection,” the cause was pollution resulting from burning fossil fuels and it was only the start of the impact of industrialization and globalization on our environment.
 
@@ -25,13 +26,13 @@ British Petroleum – dataset bp-stats-review-2021-all-data; from this site:   [
 
 World Resources Institute – dataset zip file global_power_plant_database_v_1_3; from this site:  [Welcome - Data | World Resources Institute (wri.org)](https://datasets.wri.org/)
 
-U.S. Energy Information Administration (iea) – datasets listed below:   
+U.S. Energy Information Administration (eia) – datasets listed below:   
 •	annual_consumption_state   
 •	cost_of_fossil_fuel   
 •	emission_annual   
 •	net_generation_all_sources   
 •	net_generation_renewables   
-•	revenue_expense_investor_owned_utilities   
+•	revenue_expense_investor_owned_utilities  
 •	from this site: [Homepage - U.S. Energy Information Administration (EIA)](https://www.eia.gov/)
 
 Organisation for Economic Co-operation and Development (OECD) – dataset csv file ‘oecd.csv’; from this site: [OECD Data](https://data.oecd.org/)
@@ -50,7 +51,7 @@ Analysis, of course, begins with envisioning the story I wish to tell and decidi
 
  ![renewable generation methods](screen_snips/renewable_world_view.png)
 
- This is followed by a view of the United States directly compared to Iceland, a country which has greatly invested in hydrothermal generation since the mid-1960’s.  
+ This is followed by a view of the United States directly compared to Iceland, a country which has greatly invested in hydrothermal generation since the mid-1960’s.  Clearly, the United States has a long way to go toward clean energy.  
 
 ![renewable US v Iceland](screen_snips/renewable_us_v_iceland.png)
 
@@ -67,13 +68,13 @@ and the third is the State of Tennessee.
 
 ![tennessee consumption v pollution](screen_snips/powerbi_tn_consumption_v_pollution.png)
 
-Each state shows similar levels of comsumption and emissions to the national results, except CO2 in Tennessee.  This shows a significantly greater reliance on coal-fired, electricity generation.
+Each state shows similar levels of consumption and emissions to the national results, except CO2 in Tennessee.  This shows a significantly greater reliance on coal-fired, electricity generation.
 
-What is surprising for Tennessee is that, generally, electricity is generated and supplied by the Tennessee Valley Authority (TVA).  The TVA was formed to meet three objectives: (1) to tame the frequent flooding and subsequent loss of life and property damage, (2) to provide reliable and predictable transportation via riverways, and (3) to provide cheap electricity to spur commerce. This made the TVA, and its use of hydroelectric, almost completely "green."  The TVA then invested heavily in nuclear power as the next efficient method of providing affordable electricity, which is also green in terms of atmospheric emissions.  Sometime in the 1970’s,however, the TVA let go of the idea of being green and invested in coal-fired generation plants.  While the fuel was relatively cheap, frequent interactions with the EPA added to the downstream costs of utilizing coal.  
+What is surprising for Tennessee is that, generally, electricity is generated and supplied by the Tennessee Valley Authority (TVA).  The TVA was formed to meet three objectives: (1) to tame the frequent flooding and subsequent loss of life and property damage, (2) to provide reliable and predictable transportation via riverways, and (3) to provide cheap electricity to spur commerce. This made the TVA, and its use of hydroelectric, almost completely "green."  The TVA then invested heavily in nuclear power as the next, efficient method of providing affordable electricity, which is also green in terms of atmospheric emissions.  Sometime in the 1970’s, however, the TVA let go of the idea of being green and invested in coal-fired generation plants.  While the fuel was relatively cheap, frequent interactions with the EPA added to the downstream costs of utilizing coal.  
 
 At the end of the day, Each of these three visuals show a consistent decline of emissions that are harmful to the environment.  The cause of this will be shown.
 
-![impact of natural gas](screen_snips/powerbi_trending_chart.png) INSERT VISUAL LINK HERE   
+![impact of natural gas](screen_snips/powerbi_trending_chart.png)   
 
 The second Power BI dashboard contains static information including a 30-year look at fossil fuel consumption for electricity generation as well as 30 years of greenhouse gasses.  Another 20-year dataset shows the amount of coal and natural gas used to generate the electricity.  By looking at the three line charts, it become apparent that a pivotal moment occurred in 2015, when natural gas became the predominate fossil fuel for electricity generation.  CO2 shows a slow decline after the initial spike that mirrored the spike in demand for electricity.  SO2 and NOx merge in amount created and also show a slow decline.
 
@@ -83,7 +84,7 @@ A quick explanation of the cause of the decline in pollutants is found in this c
 
 Looking back at the Power BI screens, 2010 was the year when electricity generation showed a significant spike, yet pollution declined.  What you see in the Cost of Fossil Fuels chart is the reason why!
 
-Fracking technology and practices, while controversial today, was placed in wide-spread use in the 1980’s as oil prices began to exceed the cost of domestic production.  In the early 2000’s, the US domestic oil producers saw a surprising release of natural gas from their fracking sites.  Instead of burning off the natural gas, which was the common practice, they began capturing natural gas and marketing it as an alternative to coal for energy generation.
+Fracking technology and practices, while controversial today, was placed in wide-spread use in the 1980’s as oil prices began to exceed the cost of domestic production.  In the early 2000’s, U.S. domestic oil producers saw a surprising release of natural gas from their fracking sites.  Instead of burning off the natural gas, which was the common practice, they began capturing natural gas and marketing it as an alternative to coal for energy generation.
 
 By 2010, a "tipping point" occurred where enough generation plants had converted to natural gas to significantly affect the amount of pollution being released.  In 2010, natural gas was 2.5 to 3 times more expensive than coal.  
 
@@ -128,9 +129,9 @@ How easily accessible is the nearest charging station?  Will it charge my vehicl
 
 [alternative fuel sites](https://tom-hudson88.github.io/maps/)
 
-This folium clustered map shows the locations of these public charging stations.  With the focus on Nashville, it is apparent that the number of locations is low outside of the downtown and mid-town areas.  Of the roughly 187 charging sites, 140 are in downtown and mid-town.  An additional 33 are at the airport.  This speaks a great deal to convenience but is not insurmountable if you can charge your car at home.
+This Folium clustered map shows the locations of these public charging stations.  With the focus on Nashville, it is apparent that the number of locations is low outside of the downtown and mid-town areas.  Of the roughly 187 charging sites, 140 are in downtown and mid-town.  An additional 33 are at the airport.  This speaks a great deal to convenience but is not insurmountable if you can charge your car at home.
 
-What does this map tell us about travelling distances in an EV?   Suppose you were taking a trip from Nashville to, for the chocolate lovers of the world, Hersey, Pennsylvania.  What is the availability of charging stations, or will I have to rent a gasoline vehicle?  Looking at the map, you can choose a route through Kentucky and Ohio at 753 miles, through Kentucky and West Virginia at 764 miles, or east through Tennessee then up through western part of Virginia at 730 miles.  This last route will be used to illustrate this trip.
+What does this map tell us about travelling distances in an EV?   Suppose you were taking a trip from Nashville to, for the chocolate lovers of the world, Hershey, Pennsylvania.  What is the availability of charging stations, or will I have to rent a gasoline vehicle?  Looking at the map, you can choose a route through Kentucky and Ohio at 753 miles, through Kentucky and West Virginia at 764 miles, or east through Tennessee then up through western part of Virginia at 730 miles.  This last route will be used to illustrate this trip.
 
 Assuming a vehicle with a range of 300 miles, there are 23 charging stations in the Kingsport, Johnson City, and Bristol, TN area.  That is the first leg of approximately 300 miles.  Depending on the type of charging station, 15 minutes will get an 80% charge.  The next leg should not exceed 240 miles.  That should get you to Winchester, VA.  There are 41 charging stations in the Winchester area.  The final leg will comprise of 90 miles, leaving you with a charge of approximately 50%.  This is definitely not as convenient as gasoline, but, with proper planning, is workable.
 
@@ -138,6 +139,6 @@ Assuming a vehicle with a range of 300 miles, there are 23 charging stations in 
 
 ### Thoughts at the end of the day
 
-I have shown the current state of electricity generation, both globally and for the United States specifically.  Secondly, I have addressed the progress the United States has made toward reducing pollution and generating clean energy.  Finally, I have demonstrated how EV’s are, not only feasible, but are suitable to both local and long-distance transportation.  I leave you with this final illustration:
+I have shown the current state of electricity generation, both globally and for the United States specifically.  Secondly, I have addressed the progress the United States has made toward reducing pollution and generating clean energy.  Finally, I have demonstrated how EV’s are not only feasible, but are suitable to both local and long-distance transportation.  I leave you with this final illustration:
 
 ![end of day thoughts](screen_snips/end_of_day_thoughts.png)
